@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  border-radius: 10px;
+  background-color: #f8fafc;
+  min-width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card-heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.drop-down-field {
+  border-radius: 5px;
+  min-width: 100px;
+  height: 30px;
+  border: 1px solid #cbd2d9;
+  background-color: transparent;
+  padding: 5px;
+}
+.drop-down-container {
+  display: flex;
+  align-items: center;
+}
+.span-el {
+  color: #323f4b;
+  margin-left: 5px;
+}
+.drop-down-field {
+  color: #000000;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.country-title {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 500;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
